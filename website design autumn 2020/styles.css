@@ -1,0 +1,103 @@
+body
+    {background-color: rgb(19, 19, 19);
+    color: #faebd7;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    }
+
+h1  
+    {font-size: 40px;
+    margin: 10px;}
+
+h2 
+    {border-style: groove;
+    border-width: 2px;
+    border-color: antiquewhite;
+    padding: 5px;
+    display: inline-block;
+    margin: 5px;}
+
+h3
+    {
+    padding: 5px;
+    font-size: 14px;
+    color: antiquewhite;
+    margin: 5px;}
+
+p   {font-size: 14px;
+    color:#faebd7;
+    padding: 10px;}
+
+div.demo{border-style:dotted;
+        border-width: 2px;
+        width: 100px;
+        height: 100px;}
+
+div.kakkonen{border-style:solid;
+    border-width: 1px;
+    padding:20px;}        
+
+.center{display: block;
+    margin-left: auto;
+    margin-right: auto;}
+
+ol{list-style-type: upper-alpha}
+
+ul{list-style-type: square}
+
+a:link {color: rgb(246, 168, 166);}
+a:visited {color: rgb(192, 236, 204);}
+a:hover{color: #faebd7;}
+a:active {color: rgb(165, 200, 228);}
+
+#header {background-color: rgb(75, 18, 18);
+        border-style: solid;
+        border-color: #faebd7;
+        border-width: 5px;
+        text-align: center;
+        padding: 5px;
+        }
+
+#section 
+            {background-color: antiquewhite;
+            float: left;
+            padding: 5px;
+            display:flex;
+            }
+            
+#main_nav
+                {background-color: rgb(21, 133, 11);
+                    font-size: 20px;
+                    text-align: center;
+                    padding: 5px;
+                    border-style: solid;
+                    border-width: 5px;
+                    border-color: antiquewhite;
+                    color: rgb(19, 19, 19);
+                    }
+
+#navleft        {
+                background-color: rgb(75, 18, 18);
+                width: 30%;
+                padding: 5px;
+                text-align: center;}
+#right 
+                {background-color: rgb(19, 19, 19);
+                padding: 5px;}
+                
+.row:after 
+            {
+            content: "normal";
+            display: table;
+            clear: both;}
+
+#footer 
+
+    {background-color: rgb(21, 133, 11);
+    color: rgb(19, 19, 19);
+    padding: 5px;
+    text-align: center;
+    clear: both;
+    width: auto;}
